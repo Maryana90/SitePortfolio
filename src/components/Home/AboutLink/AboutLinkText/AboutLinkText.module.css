@@ -1,0 +1,19 @@
+.content{
+    display: inline-block;
+    margin: 0 20px;
+    width: 50%;
+    vertical-align: top;
+
+}
+
+.textContent{
+    text-align: left;
+}
+
+.text{
+    font-family: 'Raleway', sans-serif;
+    font-size: 15px;
+    letter-spacing: 0.05em;
+    line-height: 1.7;
+    margin: 0;
+}

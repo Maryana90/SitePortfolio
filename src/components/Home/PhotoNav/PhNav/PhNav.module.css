@@ -1,0 +1,10 @@
+.photoBlock {
+    display: inline-block;
+    width: 15%;
+    margin: 30px 5%;
+}
+
+.photoItem {
+    display: inline-block;
+    width: 100%;
+}

@@ -1,0 +1,35 @@
+.footer{
+    top: 0;
+    background-color: #ebe9e9;
+}
+
+.innerFooter{
+    margin: 30px 10%;
+}
+
+.footerItem{
+    display: inline-block;
+    justify-content: space-between;
+
+    text-align: center;
+}
+
+.contactsData{
+    width: 30%;
+}
+
+.copyRight{
+    width: 40%;
+}
+
+.links{
+    width: 30%;
+}
+
+.link img{
+    width: 15px;
+}
+
+.icon{
+    margin: 10px;
+}
