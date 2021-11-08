@@ -2,6 +2,7 @@ import React from "react";
 import q from "./About.module.css";
 import photo from "./AboutPhoto/photographer.jpg";
 
+
 const About = () => {
   return (
     <div className={q.about}>
