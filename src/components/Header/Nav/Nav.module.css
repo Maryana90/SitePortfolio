@@ -27,5 +27,10 @@
 }
 
 .item a.activeLink{
-    color: #7c7c77;
+    color: rgba(199, 199, 199, 1);
+
+}
+
+.item a:hover{
+    color: rgba(199, 199, 199, 1);
 }

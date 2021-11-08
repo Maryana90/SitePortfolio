@@ -9,10 +9,18 @@
 }
 
 .textButton{
-    color: rgba(70, 69, 83, 1);
+    
+}
+
+.button a{    color: rgba(70, 69, 83, 1);
     font-family: 'Raleway', sans-serif;
     font-size: 13px;
     letter-spacing: 0.05em;
     font-weight: 700;
+    text-decoration: none;
 }
 
+.button a:hover{
+    color: #aaaaaa;
+    text-decoration: none;
+}

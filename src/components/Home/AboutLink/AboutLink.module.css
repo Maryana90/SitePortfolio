@@ -1,11 +1,11 @@
 .aboutLink{
-    margin:70px 15%;
+    margin:70px 10%;
     line-height: 1.4;
     text-align: center;
 }
 
 .photo{
     display: inline-block;
-    width: 25%;
+    width: 30%;
     margin: auto 20px;
 }

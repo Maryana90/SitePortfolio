@@ -8,7 +8,7 @@ import AboutLink from './AboutLink/AboutLink';
 
 const Home = () => {
     return (
-        <div>
+        <div className={q.homePage}>
             <PhotoSlider />
             <TextContent />
             <PhotoNav />

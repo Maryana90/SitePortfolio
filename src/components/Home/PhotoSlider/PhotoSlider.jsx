@@ -1,6 +1,6 @@
 import React from 'react';
 import q from './PhotoSlider.module.css';
-import slide1 from './Photos/Slide1.JPG';
+import slide1 from './assets/Slide1.JPG';
 
 
 const PhotoSlider = () => {

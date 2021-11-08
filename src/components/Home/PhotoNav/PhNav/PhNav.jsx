@@ -1,6 +1,6 @@
 import React from 'react';
 import q from './PhNav.module.css';
-import photo from './../Photos/ph1.jpg'
+import photo from './../assets/ph1.jpg'
 
 const PhNav = () => {
     return (
