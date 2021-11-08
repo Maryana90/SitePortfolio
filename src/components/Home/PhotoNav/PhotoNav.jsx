@@ -4,7 +4,7 @@ import PhNav from './PhNav/PhNav';
 
 const PhotoNav = () => {
     return (
-        <div>
+        <div className={q.photosBlock}>
             <PhNav />
             <PhNav />
             <PhNav />

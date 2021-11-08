@@ -21,8 +21,9 @@ function App() {
             <Route path='/contacts' component={Contacts} />
             <Route path='/more' component={More} />
           </div>
+        <Footer />
       </div>
-      <Footer />
+
     </BrowserRouter>
   );
 }
