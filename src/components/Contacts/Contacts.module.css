@@ -1,0 +1,11 @@
+.textBlock {
+  margin: 30px 18%;
+  width: 64%;
+}
+
+.text {
+  font-family: "Raleway", sans-serif;
+  font-size: larger;
+  letter-spacing: 0.1em;
+  line-height: 2.5;
+}

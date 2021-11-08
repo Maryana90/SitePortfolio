@@ -13,6 +13,7 @@ const PhotoNav = () => {
             <PhNav />
             <PhNav />
             <PhNav />
+            <PhNav />
         </div>
     )
 }

@@ -10,7 +10,7 @@ const Footer = () => {
       <div className={q.innerFooter}>
         <p className={q.footerItem + " " + q.contactsData}>
           <p className={q.contacts}>
-            E-mail: <span className={q.contact}>blabla@ukr.net</span>
+            E-mail: <span className={q.contact}>lilia.minenko@gmail.com</span>
           </p>
           <p className={q.contacts}>
             Телефон: <span className={q.contact}>(050)123-45-67</span>
