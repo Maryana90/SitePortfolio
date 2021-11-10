@@ -17,7 +17,6 @@ const NavPortfolioRoute = () => {
                   <Route path='/portrait' component={Portrait} />
                   <Route path='/studio' component={Studio} />
                 </div>
-              <Footer />
             </div>
       
           </BrowserRouter>
