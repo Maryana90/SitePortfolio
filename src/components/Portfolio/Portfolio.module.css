@@ -1,0 +1,53 @@
+.navPortfolio{
+  position: relative;
+  display: inline-block;
+}
+
+.button{
+  margin-top: 20px;
+  font-size: 10px;
+  line-height: 16px;
+  letter-spacing: .35em;
+  font-family: Didact Gothic;
+  text-align: center;
+  text-transform: uppercase;
+  border: none;
+  background-color: white;
+  cursor: pointer;
+}
+
+.button:hover{
+    color: rgba(199, 199, 199, 1);
+    cursor: pointer;
+
+}
+
+.portfoloiItems{
+  display: none;
+  position: absolute;
+  display: block;
+line-height: 1.25em;
+height: 100%;
+width: 100%;
+padding: 13px 30px 15px 25px;
+}
+
+
+.portfoloiItems{
+  display: none;
+  position: absolute;
+}
+
+.portfoloiItems a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+
+.portfoloiItems a:hover {
+  background-color: #ddd;
+  cursor: pointer;
+}
+
+.navPortfolio:hover .portfoloiItems {display: block;}

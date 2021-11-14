@@ -1,4 +1,4 @@
-.nav{
+.button{
     margin-top: 20px;
     font-size: 10px;
     line-height: 16px;
@@ -6,7 +6,8 @@
     font-family: Didact Gothic;
     text-align: center;
     text-transform: uppercase;
-
+    border: none;
+    background-color: white;
 }
 
 .list{

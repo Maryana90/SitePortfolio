@@ -1,6 +1,8 @@
 import React from 'react';
 import q from './Nav.module.css';
 import { NavLink } from 'react-router-dom';
+import NavPortfolioRoute from './NavPortfolioRoute/NavPortfolioRoute';
+import Portfolio from '../../Portfolio/Portfolio';
 
 const Nav = () => {
     return (
@@ -10,8 +12,8 @@ const Nav = () => {
                     <NavLink to='/home' activeClassName={q.activeLink}>Home</NavLink>
                 </li>
                 <li className={q.item}>•</li>
-                <li className={q.item}>
-                    <NavLink to='/portfolio' activeClassName={q.activeLink}>Portfolio</NavLink>
+                <li className={q.item + ' ' + q.itemPortfolio}>
+                    <Portfolio />
                 </li>
                 <li className={q.item}>•</li>
                 <li className={q.item}>
