@@ -13,24 +13,10 @@ import Studio from './../../../Portfolio/Studio/Studio';
 
 const NavPortfolioRoute = () => {
     return (
-        <BrowserRouter>
-            <div className={q.navPortfolio}>
-              <button className={q.button}>
-                Portfolio
-                <div className={q.navPortfolioItems}>
-                  <Route path='/architecture' component={Architecture} />
-                  <Route path='/business' component={Business} />
-                  <Route path='/family' component={Family} />
-                  <Route path='/landscape' component={Landscape} />
-                  <Route path='/outdoor' component={Outdoor} />
-                  <Route path='/photohistory' component={Photohistory} />
-                  <Route path='/portrait' component={Portrait} />
-                  <Route path='/studio' component={Studio} />
-                </div>
-              </button>
+      <div>
+        NavPortfolioRoute
+      </div>
 
-            </div>
-          </BrowserRouter>
     )
 }
 
