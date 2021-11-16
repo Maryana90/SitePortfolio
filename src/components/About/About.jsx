@@ -1,6 +1,6 @@
 import React from "react";
 import q from "./About.module.css";
-import photo from "./AboutPhoto/photographer.jpg";
+import photo from "./assets/photographer.jpg";
 
 
 const About = () => {

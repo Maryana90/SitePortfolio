@@ -1,3 +1,30 @@
-.photosBlock{
-    margin: auto 10%;
-}
+.photosBlock {
+    position: relative;
+    width: 100%;
+    box-sizing: border-box;
+    overflow: hidden;
+    padding: 40px;
+    margin: 0;
+  }
+
+.photoBlock {
+    display: flex;
+    margin: 10px auto 25px;
+    width: 100%;
+  }
+
+.photoItem {
+    overflow: hidden;
+    text-align: center;
+  }
+  
+  .photoItem img {
+    display: inline-block;
+    width: 250px;
+    top: 0px;
+    left: 0px;
+    height: 372px;
+    margin: 70px 50px 0;
+    overflow: hidden;
+    cursor: pointer;
+  }

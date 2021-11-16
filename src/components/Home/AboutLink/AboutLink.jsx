@@ -1,6 +1,6 @@
 import React from 'react';
 import q from './AboutLink.module.css';
-import photo from './../../About/AboutPhoto/photographer.jpg';
+import photo from './../../About/assets/photographer.jpg';
 import AboutLinkHeader from './AboutLinkHeader/AboutLinkHeader';
 import AboutLinkText from './AboutLinkText/AboutLinkText';
 
