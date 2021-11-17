@@ -9,21 +9,85 @@ import img6 from "./../../Portfolio/Photohistory/assets/f1.jpg";
 import img7 from "./../../Portfolio/Family/assets/f1.jpg";
 import img8 from "./../../Portfolio/Landscape/assets/f1.jpg";
 import img9 from "./../../Portfolio/Architecture/assets/f1.jpg";
+import { NavLink } from "react-router-dom";
 
 const PhotoNav = () => {
   return (
     <div className={q.photosBlock}>
       <div className={q.photoBlock}>
         <div className={q.photoItem}>
-          <img src={img1} alt="photo" />
-          <img src={img2} alt="photo" />
-          <img src={img3} alt="photo" />
-          <img src={img4} alt="photo" />
-          <img src={img5} alt="photo" />
-          <img src={img6} alt="photo" />
-          <img src={img7} alt="photo" />
-          <img src={img8} alt="photo" />
-          <img src={img9} alt="photo" />
+          <div className={q.item}>
+            <div className={q.link}>
+              <NavLink to="/portrait">
+                <img src={img1} alt="photo" />
+                <span className={q.textLink}>Portrait</span>
+              </NavLink>
+            </div>
+          </div>
+          <div className={q.item}>
+            <div className={q.link}>
+              <NavLink to="/outdoor">
+                <img src={img2} alt="photo" />
+                <span className={q.textLink}>Outdoor</span>
+              </NavLink>
+            </div>
+          </div>
+          <div className={q.item}>
+            <div className={q.link}>
+              <NavLink to="/studio">
+                <img src={img3} alt="photo" />
+                <span className={q.textLink}>Studio</span>
+              </NavLink>
+            </div>
+          </div>
+          <div className={q.item}>
+            <div className={q.link}>
+              <NavLink to="/lovestory">
+                <img src={img4} alt="photo" />
+                <span className={q.textLink}>Love Story</span>
+              </NavLink>
+            </div>
+          </div>
+          <div className={q.item}>
+            <div className={q.link}>
+              <NavLink to="/business">
+                <img src={img5} alt="photo" />
+                <span className={q.textLink}>Business</span>
+              </NavLink>
+            </div>
+          </div>
+          <div className={q.item}>
+            <div className={q.link}>
+              <NavLink to="/photohistory">
+                <img src={img6} alt="photo" />
+                <span className={q.textLink}>Photohistory</span>
+              </NavLink>
+            </div>
+          </div>
+          <div className={q.item}>
+            <div className={q.link}>
+              <NavLink to="/family">
+                <img src={img7} alt="photo" />
+                <span className={q.textLink}>Family</span>
+              </NavLink>
+            </div>
+          </div>
+          <div className={q.item}>
+            <div className={q.link}>
+              <NavLink to="/landscape">
+                <img src={img8} alt="photo" />
+                <span className={q.textLink}>Landscape</span>
+              </NavLink>
+            </div>
+          </div>
+          <div className={q.item}>
+            <div className={q.link}>
+              <NavLink to="/architecture">
+                <img src={img9} alt="photo" />
+                <span className={q.textLink}>Architecture</span>
+              </NavLink>
+            </div>
+          </div>
         </div>
       </div>
     </div>

@@ -15,32 +15,32 @@ import Photohistory from './components/Portfolio/Photohistory/Photohistory';
 import Portrait from './components/Portfolio/Portrait/Portrait';
 import Studio from './components/Portfolio/Studio/Studio';
 import LoveStory from './components/Portfolio/LoveStory/LoveStory';
-import {BrowserRouter, Route} from 'react-router-dom';
+import { BrowserRouter, Route } from 'react-router-dom';
 
 
 function App() {
   return (<BrowserRouter>
-      <div className="app-wrapper">
-        <Header />
-          <div className='app-wrapper-content'>
-            <Route path='/home' component={Home} />
-            <Route path='/architecture' component={Architecture} />
-            <Route path='/business' component={Business} />
-            <Route path='/family' component={Family} />
-            <Route path='/landscape' component={Landscape} />
-            <Route path='/outdoor' component={Outdoor} />
-            <Route path='/photohistory' component={Photohistory} />
-            <Route path='/portrait' component={Portrait} />
-            <Route path='/studio' component={Studio} />
-            <Route path='/lovestory' component={LoveStory} />            
-            <Route path='/about' component={About} />
-            <Route path='/contacts' component={Contacts} />
-            <Route path='/more' component={More} />
-          </div>
-        <Footer />
+    <div className="app-wrapper">
+      <Header />
+      <div className='app-wrapper-content'>
+        <Route path='/home' component={Home} />
+        <Route path='/architecture' component={Architecture} />
+        <Route path='/business' component={Business} />
+        <Route path='/family' component={Family} />
+        <Route path='/landscape' component={Landscape} />
+        <Route path='/outdoor' component={Outdoor} />
+        <Route path='/photohistory' component={Photohistory} />
+        <Route path='/portrait' component={Portrait} />
+        <Route path='/studio' component={Studio} />
+        <Route path='/lovestory' component={LoveStory} />
+        <Route path='/about' component={About} />
+        <Route path='/contacts' component={Contacts} />
+        <Route path='/more' component={More} />
       </div>
+      <Footer />
+    </div>
 
-    </BrowserRouter>
+  </BrowserRouter>
   );
 }
 

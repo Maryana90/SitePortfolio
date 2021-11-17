@@ -29,7 +29,7 @@
 }
 
 .photoItem img {
-  display: inline-block;
+  display: inline;
   width: 380px;
   top: 0px;
   left: 0px;
@@ -41,6 +41,6 @@
 
 .photoItem img.gorizontal {
   width: 380px;
-  height: auto;
+  height: 250px;
   vertical-align: top;
 }

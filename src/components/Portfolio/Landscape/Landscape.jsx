@@ -15,6 +15,15 @@ import img11 from "./assets/f11.jpg";
 import img12 from "./assets/f12.jpg";
 import img13 from "./assets/f13.jpg";
 import img14 from "./assets/f14.jpg";
+import img15 from "./assets/f15.jpg";
+import img16 from "./assets/f16.jpg";
+import img17 from "./assets/f17.jpg";
+import img18 from "./assets/f18.jpg";
+import img19 from "./assets/f19.jpg";
+import img20 from "./assets/f20.jpg";
+import img21 from "./assets/f21.jpg";
+import img22 from "./assets/f22.jpg";
+import img23 from "./assets/f23.jpg";
 
 const Landscape = () => {
   return (
@@ -31,13 +40,22 @@ const Landscape = () => {
           <img src={img5} alt="img5" />
           <img src={img6} alt="img6" />
           <img src={img7} alt="img7" />
-          <img className={q.gorizontal} src={img8} alt="img8" />
-          <img className={q.gorizontal} src={img9} alt="img9" />
-          <img className={q.gorizontal} src={img10} alt="img10" />
-          <img className={q.gorizontal} src={img11} alt="img11" />
-          <img className={q.gorizontal} src={img12} alt="img12" />
-          <img className={q.gorizontal} src={img13} alt="img13" />
+          <img src={img8} alt="img8" />
+          <img src={img9} alt="img9" />
+          <img src={img10} alt="img10" />
+          <img src={img11} alt="img11" />
+          <img src={img12} alt="img12" />
+          <img src={img13} alt="img13" />
           <img className={q.gorizontal} src={img14} alt="img14" />
+          <img className={q.gorizontal} src={img15} alt="img15" />
+          <img className={q.gorizontal} src={img16} alt="img16" />
+          <img className={q.gorizontal} src={img17} alt="img17" />
+          <img className={q.gorizontal} src={img18} alt="img18" />
+          <img className={q.gorizontal} src={img19} alt="img19" />
+          <img className={q.gorizontal} src={img20} alt="img20" />
+          <img className={q.gorizontal} src={img21} alt="img21" />
+          <img className={q.gorizontal} src={img22} alt="img22" />
+          <img className={q.gorizontal} src={img23} alt="img23" />
         </div>
       </div>
     </div>
