@@ -36,26 +36,26 @@
 }
 
 .button {
-    margin-top: 20px;
-    font-size: 10px;
-    line-height: 16px;
-    letter-spacing: 0.35em;
-    font-family: Didact Gothic;
-    text-align: center;
-    text-transform: uppercase;
-    border: none;
-    background-color: white;
-    cursor: pointer;
-  }
+  margin-top: 20px;
+  font-size: 10px;
+  line-height: 16px;
+  letter-spacing: 0.35em;
+  font-family: Didact Gothic;
+  text-align: center;
+  text-transform: uppercase;
+  border: none;
+  background-color: white;
+  cursor: pointer;
+}
 
 .portfoloiItems {
-    display: none;
-    position: absolute;
-    line-height: 1.25em;
-    padding-top: 15px;
-    margin-left: -20px;
-    text-transform: none;
-  }
+  display: none;
+  position: absolute;
+  line-height: 1.25em;
+  padding-top: 15px;
+  margin-left: -20px;
+  text-transform: none;
+}
 
 .navList {
   display: block;

@@ -23,7 +23,7 @@ function App() {
     <div className="app-wrapper">
       <Header />
       <div className='app-wrapper-content'>
-        <Route path='/home' component={Home} />
+        <Route exact path='/' component={Home} />
         <Route path='/architecture' component={Architecture} />
         <Route path='/business' component={Business} />
         <Route path='/family' component={Family} />
