@@ -21,11 +21,14 @@
 .item {
   display: inline-block;
   overflow: hidden;
+  margin: 40px;
+
 }
 
 .link {
   cursor: pointer;
   display: block;
+  width: 250px;
 }
 
 .link a {
@@ -41,13 +44,27 @@
   color: rgba(70, 69, 83, 1);
 }
 
+.textLink:hover {
+  color: rgba(199, 199, 199, 1);
+}
+
 .item img {
+  margin-bottom: 20px;
   display: block;
   width: 250px;
   top: 0px;
   left: 0px;
   height: 372px;
-  margin: 70px 50px 20px;
   overflow: hidden;
   cursor: pointer;
+  
+}
+
+.item img:hover {
+  width: 240px;
+  height: 357px;
+  text-align: center;
+  padding: 7.5px 5px;
+  transition: .3s;
+  border-radius: 5%;
 }
