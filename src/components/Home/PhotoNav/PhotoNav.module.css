@@ -20,9 +20,7 @@
 
 .item {
   display: inline-block;
-  overflow: hidden;
   margin: 40px;
-
 }
 
 .link {
@@ -61,10 +59,7 @@
 }
 
 .item img:hover {
-  width: 240px;
-  height: 357px;
-  text-align: center;
-  padding: 7.5px 5px;
-  transition: .3s;
-  border-radius: 5%;
+  transition: all 1s ease;
+  -webkit-filter: grayscale(100%);
+
 }
