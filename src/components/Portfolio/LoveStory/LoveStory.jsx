@@ -20,10 +20,10 @@ const LoveStory = () => {
           <img src={img1} alt="img1" />
           <img src={img2} alt="img2" />
           <img src={img3} alt="img3" />
-          <img className={q.gorizontal} src={img4} alt="img4" />
-          <img className={q.gorizontal} src={img5} alt="img5" />
-          <img className={q.gorizontal} src={img6} alt="img6" />
-          <img className={q.gorizontal} src={img7} alt="img7" />
+          <img src={img4} alt="img4" />
+          <img src={img5} alt="img5" />
+          <img src={img6} alt="img6" />
+          <img src={img7} alt="img7" />
         </div>
       </div>
     </div>

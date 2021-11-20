@@ -37,10 +37,5 @@
   padding: 5px 5px 0;
   overflow: hidden;
   cursor: pointer;
-}
-
-.photoItem img.gorizontal {
-  width: 380px;
-  height: 250px;
-  vertical-align: top;
+  object-fit: cover; 
 }

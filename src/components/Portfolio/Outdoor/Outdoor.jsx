@@ -36,10 +36,10 @@ const Outdoor = () => {
           <img src={img9} alt="img9" />
           <img src={img10} alt="img10" />
           <img src={img11} alt="img11" />
-          <img className={q.gorizontal} src={img12} alt="img12" />
-          <img className={q.gorizontal} src={img13} alt="img13" />
-          <img className={q.gorizontal} src={img14} alt="img14" />
-          <img className={q.gorizontal} src={img15} alt="img15" />
+          <img src={img12} alt="img12" />
+          <img src={img13} alt="img13" />
+          <img src={img14} alt="img14" />
+          <img src={img15} alt="img15" />
         </div>
       </div>
     </div>

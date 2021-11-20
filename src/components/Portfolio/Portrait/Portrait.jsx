@@ -44,8 +44,8 @@ const Portrait = () => {
           <img src={img14} alt="img14" />
           <img src={img15} alt="img15" />
           <img src={img16} alt="img16" />
-          <img className={q.gorizontal} src={img17} alt="img17" />
-          <img className={q.gorizontal} src={img18} alt="img18" />
+          <img src={img17} alt="img17" />
+          <img src={img18} alt="img18" />
         </div>
       </div>
     </div>

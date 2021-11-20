@@ -20,8 +20,8 @@ const Business = () => {
           <img src={img2} alt="img2" />
           <img src={img3} alt="img3" />
           <img src={img4} alt="img4" />
-          <img className={q.gorizontal} src={img5} alt="img5" />
-          <img className={q.gorizontal} src={img6} alt="img6" />
+          <img src={img5} alt="img5" />
+          <img src={img6} alt="img6" />
         </div>
       </div>
     </div>

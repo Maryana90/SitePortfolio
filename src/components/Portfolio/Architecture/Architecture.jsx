@@ -27,7 +27,7 @@ const Architecture = () => {
           <img src={img6} alt="img6" />
           <img src={img7} alt="img7" />
           <img src={img8} alt="img8" />
-          <img className={q.gorizontal} src={img9} alt="img9" />
+          <img src={img9} alt="img9" />
         </div>
       </div>
     </div>

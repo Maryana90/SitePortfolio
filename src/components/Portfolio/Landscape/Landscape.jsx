@@ -46,16 +46,16 @@ const Landscape = () => {
           <img src={img11} alt="img11" />
           <img src={img12} alt="img12" />
           <img src={img13} alt="img13" />
-          <img className={q.gorizontal} src={img14} alt="img14" />
-          <img className={q.gorizontal} src={img15} alt="img15" />
-          <img className={q.gorizontal} src={img16} alt="img16" />
-          <img className={q.gorizontal} src={img17} alt="img17" />
-          <img className={q.gorizontal} src={img18} alt="img18" />
-          <img className={q.gorizontal} src={img19} alt="img19" />
-          <img className={q.gorizontal} src={img20} alt="img20" />
-          <img className={q.gorizontal} src={img21} alt="img21" />
-          <img className={q.gorizontal} src={img22} alt="img22" />
-          <img className={q.gorizontal} src={img23} alt="img23" />
+          <img src={img14} alt="img14" />
+          <img src={img15} alt="img15" />
+          <img src={img16} alt="img16" />
+          <img src={img17} alt="img17" />
+          <img src={img18} alt="img18" />
+          <img src={img19} alt="img19" />
+          <img src={img20} alt="img20" />
+          <img src={img21} alt="img21" />
+          <img src={img22} alt="img22" />
+          <img src={img23} alt="img23" />
         </div>
       </div>
     </div>
