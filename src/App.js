@@ -24,6 +24,7 @@ function App() {
       <Header />
       <div className='app-wrapper-content'>
         <Route exact path='/' component={Home} />
+        <Route exact path='/SitePortfolio/' component={Home} />
         <Route path='/architecture' component={Architecture} />
         <Route path='/business' component={Business} />
         <Route path='/family' component={Family} />
