@@ -13,7 +13,7 @@ const Footer = () => {
             E-mail: <span className={q.contact}>lilia.minenko@gmail.com</span>
           </p>
           <p className={q.contacts}>
-            Телефон: <span className={q.contact}>(050)123-45-67</span>
+            Телефон: <span className={q.contact}>(066)218-69-48</span>
           </p>
         </p>
         <p className={q.footerItem + " " + q.copyRight}>
@@ -38,7 +38,7 @@ const Footer = () => {
             </a>
             <a
               className={q.icon}
-              href="viber://chat?number=380501234567"
+              href="viber://chat?number=0662186948"
               target="_blank"
             >
               <img src={vb} alt="viber" />

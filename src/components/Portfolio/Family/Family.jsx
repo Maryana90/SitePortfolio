@@ -4,7 +4,7 @@ import q from './Family.module.css';
 const Family = () => {
     return (
         <div>
-            Family
+            Here can be Your photos :) 
         </div>
     )
 }

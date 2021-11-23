@@ -1,6 +1,7 @@
 import React from "react";
 import q from "./Contacts.module.css";
 import Image from "./Image/Image";
+import ContactForm from "./ContactForm/ContactForm";
 
 const Contacts = () => {
   return (
@@ -16,6 +17,7 @@ const Contacts = () => {
           I'm open minded and I adore fulfilling new ideas in reality.
         </p>
       </div>
+      <ContactForm />
     </div>
   );
 };

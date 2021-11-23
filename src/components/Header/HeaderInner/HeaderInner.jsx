@@ -8,7 +8,7 @@ const HeaderInner = () => {
             <header className={q.header}>
                 <div></div>
                 <div className={q.name}>Lilia Minenko Photography</div>
-                <div>
+                <div className={q.lang}>
                     {/* <Route path='/eng' component='#' />
                     <Route path='/ua' component='#' />
                     <Route path='/ru' component='#' /> */}

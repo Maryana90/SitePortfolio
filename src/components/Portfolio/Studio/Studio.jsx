@@ -4,7 +4,7 @@ import q from './Studio.module.css';
 const Studio = () => {
     return (
         <div>
-            Studio
+            Here can be Your photos :) 
         </div>
     )
 }

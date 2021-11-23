@@ -4,7 +4,7 @@ import q from './Photohistory.module.css';
 const Photohistory = () => {
     return (
         <div>
-            Photohistory
+            Here can be Your photos :) 
         </div>
     )
 }
