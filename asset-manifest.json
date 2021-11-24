@@ -1,17 +1,17 @@
 {
   "files": {
-    "main.css": "/SitePortfolio/static/css/main.7f5028d5.chunk.css",
-    "main.js": "/SitePortfolio/static/js/main.1be3ef82.chunk.js",
-    "main.js.map": "/SitePortfolio/static/js/main.1be3ef82.chunk.js.map",
-    "runtime-main.js": "/SitePortfolio/static/js/runtime-main.5e365726.js",
-    "runtime-main.js.map": "/SitePortfolio/static/js/runtime-main.5e365726.js.map",
-    "static/js/2.5eabcf4f.chunk.js": "/SitePortfolio/static/js/2.5eabcf4f.chunk.js",
-    "static/js/2.5eabcf4f.chunk.js.map": "/SitePortfolio/static/js/2.5eabcf4f.chunk.js.map",
-    "static/js/3.56813797.chunk.js": "/SitePortfolio/static/js/3.56813797.chunk.js",
-    "static/js/3.56813797.chunk.js.map": "/SitePortfolio/static/js/3.56813797.chunk.js.map",
+    "main.css": "/SitePortfolio/static/css/main.e5477959.chunk.css",
+    "main.js": "/SitePortfolio/static/js/main.a4649dce.chunk.js",
+    "main.js.map": "/SitePortfolio/static/js/main.a4649dce.chunk.js.map",
+    "runtime-main.js": "/SitePortfolio/static/js/runtime-main.8459cfba.js",
+    "runtime-main.js.map": "/SitePortfolio/static/js/runtime-main.8459cfba.js.map",
+    "static/js/2.a4d09d82.chunk.js": "/SitePortfolio/static/js/2.a4d09d82.chunk.js",
+    "static/js/2.a4d09d82.chunk.js.map": "/SitePortfolio/static/js/2.a4d09d82.chunk.js.map",
+    "static/js/3.39f12065.chunk.js": "/SitePortfolio/static/js/3.39f12065.chunk.js",
+    "static/js/3.39f12065.chunk.js.map": "/SitePortfolio/static/js/3.39f12065.chunk.js.map",
     "index.html": "/SitePortfolio/index.html",
-    "static/css/main.7f5028d5.chunk.css.map": "/SitePortfolio/static/css/main.7f5028d5.chunk.css.map",
-    "static/js/2.5eabcf4f.chunk.js.LICENSE.txt": "/SitePortfolio/static/js/2.5eabcf4f.chunk.js.LICENSE.txt",
+    "static/css/main.e5477959.chunk.css.map": "/SitePortfolio/static/css/main.e5477959.chunk.css.map",
+    "static/js/2.a4d09d82.chunk.js.LICENSE.txt": "/SitePortfolio/static/js/2.a4d09d82.chunk.js.LICENSE.txt",
     "static/media/Slide1.2cc275cd.JPG": "/SitePortfolio/static/media/Slide1.2cc275cd.JPG",
     "static/media/contacts.0405fe4d.jpg": "/SitePortfolio/static/media/contacts.0405fe4d.jpg",
     "static/media/f1.8cc80225.JPG": "/SitePortfolio/static/media/f1.8cc80225.JPG",
@@ -98,9 +98,9 @@
     "static/media/viber.295d3eb1.png": "/SitePortfolio/static/media/viber.295d3eb1.png"
   },
   "entrypoints": [
-    "static/js/runtime-main.5e365726.js",
-    "static/js/2.5eabcf4f.chunk.js",
-    "static/css/main.7f5028d5.chunk.css",
-    "static/js/main.1be3ef82.chunk.js"
+    "static/js/runtime-main.8459cfba.js",
+    "static/js/2.a4d09d82.chunk.js",
+    "static/css/main.e5477959.chunk.css",
+    "static/js/main.a4649dce.chunk.js"
   ]
 }
