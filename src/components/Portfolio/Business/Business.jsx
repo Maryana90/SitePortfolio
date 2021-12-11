@@ -1,6 +1,5 @@
 import React from "react";
-import qq from "./Business.module.css";
-import q from "./../PhotoStyles.module.css";
+import FunctionPortfolio from '../FunctionPortfolio';
 import img1 from "./assets/f1.jpg";
 import img2 from "./assets/f2.jpg";
 import img3 from "./assets/f3.jpg";
@@ -9,23 +8,34 @@ import img5 from "./assets/f5.jpg";
 import img6 from "./assets/f6.jpg";
 
 const Business = () => {
-  return (
-    <div className={q.content}>
-      <div>
-        <p className={q.title}>Business</p>
-      </div>
-      <div className={q.photos}>
-        <div className={q.photoItem}>
-          <img src={img1} alt="img1" />
-          <img src={img2} alt="img2" />
-          <img src={img3} alt="img3" />
-          <img src={img4} alt="img4" />
-          <img src={img5} alt="img5" />
-          <img src={img6} alt="img6" />
-        </div>
-      </div>
-    </div>
-  );
+  let data = [
+    {
+      id: 1,
+      imgSrc: img1,
+    },
+    {
+      id: 2,
+      imgSrc: img2,
+    },
+    {
+      id: 3,
+      imgSrc: img3,
+    },
+    {
+      id: 4,
+      imgSrc: img4,
+    },
+    {
+      id: 5,
+      imgSrc: img5,
+    },
+    {
+      id: 6,
+      imgSrc: img6,
+    },
+  ];
+
+  return <FunctionPortfolio data={data} />;
 };
 
 export default Business;

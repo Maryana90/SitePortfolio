@@ -1,6 +1,6 @@
 import React from "react";
-import qq from "./Landscape.module.css";
-import q from "./../PhotoStyles.module.css";
+import FunctionPortfolio from '../FunctionPortfolio';
+
 import img1 from "./assets/f1.jpg";
 import img2 from "./assets/f2.jpg";
 import img3 from "./assets/f3.jpg";
@@ -26,40 +26,102 @@ import img22 from "./assets/f22.jpg";
 import img23 from "./assets/f23.jpg";
 
 const Landscape = () => {
-  return (
-    <div className={q.content}>
-      <div>
-        <p className={q.title}>Landscape</p>
-      </div>
-      <div className={q.photos}>
-        <div className={q.photoItem}>
-          <img src={img1} alt="img1" />
-          <img src={img2} alt="img2" />
-          <img src={img3} alt="img3" />
-          <img src={img4} alt="img4" />
-          <img src={img5} alt="img5" />
-          <img src={img6} alt="img6" />
-          <img src={img7} alt="img7" />
-          <img src={img8} alt="img8" />
-          <img src={img9} alt="img9" />
-          <img src={img10} alt="img10" />
-          <img src={img11} alt="img11" />
-          <img src={img12} alt="img12" />
-          <img src={img13} alt="img13" />
-          <img src={img14} alt="img14" />
-          <img src={img15} alt="img15" />
-          <img src={img16} alt="img16" />
-          <img src={img17} alt="img17" />
-          <img src={img18} alt="img18" />
-          <img src={img19} alt="img19" />
-          <img src={img20} alt="img20" />
-          <img src={img21} alt="img21" />
-          <img src={img22} alt="img22" />
-          <img src={img23} alt="img23" />
-        </div>
-      </div>
-    </div>
-  );
+  let data = [
+    {
+      id: 1,
+      imgSrc: img1,
+    },
+    {
+      id: 2,
+      imgSrc: img2,
+    },
+    {
+      id: 3,
+      imgSrc: img3,
+    },
+    {
+      id: 4,
+      imgSrc: img4,
+    },
+    {
+      id: 5,
+      imgSrc: img5,
+    },
+    {
+      id: 6,
+      imgSrc: img6,
+    },
+    {
+      id: 7,
+      imgSrc: img7,
+    },
+    {
+      id: 8,
+      imgSrc: img8,
+    },
+    {
+      id: 9,
+      imgSrc: img9,
+    },
+    {
+      id: 10,
+      imgSrc: img10,
+    },
+    {
+      id: 11,
+      imgSrc: img11,
+    },
+    {
+      id: 12,
+      imgSrc: img12,
+    },
+    {
+      id: 13,
+      imgSrc: img13,
+    },
+    {
+      id: 14,
+      imgSrc: img14,
+    },
+    {
+      id: 15,
+      imgSrc: img15,
+    },
+    {
+      id: 16,
+      imgSrc: img16,
+    },
+    {
+      id: 17,
+      imgSrc: img17,
+    },
+    {
+      id: 18,
+      imgSrc: img18,
+    },
+    {
+      id: 19,
+      imgSrc: img19,
+    },
+    {
+      id: 20,
+      imgSrc: img20,
+    },
+    {
+      id: 21,
+      imgSrc: img21,
+    },
+    {
+      id: 22,
+      imgSrc: img22,
+    },
+    {
+      id: 23,
+      imgSrc: img23,
+    },
+  ];
+
+  return <FunctionPortfolio data={data} />;
 };
 
 export default Landscape;
