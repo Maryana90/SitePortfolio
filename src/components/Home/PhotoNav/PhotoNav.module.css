@@ -6,11 +6,31 @@
   padding: 40px;
   margin: 0;
 }
+@media (max-width: 1080px) {
+  .photosBlock {
+    padding: 10px;
+  }
+}
+@media (max-width: 1024px) {
+  .photosBlock {
+    padding: 0;
+  }
+}
 
 .photoBlock {
   display: flex;
   margin: 10px auto 25px;
   width: 100%;
+}
+@media (max-width: 1024px) {
+  .photoBlock {
+    margin: 0 auto 10px;
+  }
+}
+@media (max-width: 991px) {
+  .photoBlock {
+    margin: 0 auto 10px;
+  }
 }
 
 .photoItem {
@@ -21,6 +41,12 @@
 .item {
   display: inline-block;
   margin: 40px;
+}
+@media (max-width: 991px) {
+  .item {
+    display: inline-block;
+    margin: 20px 40px;
+  }
 }
 
 .link {

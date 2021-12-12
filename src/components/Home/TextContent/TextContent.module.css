@@ -3,6 +3,18 @@
     line-height: 1.4;
     text-align: center;
 }
+@media (max-width: 991px) {
+    .textContent{
+        margin:40px 15% 10px;
+        line-height: 1.4;
+    }
+  }
+  @media (max-width: 768px) {
+    .textContent{
+        margin:20px 10% 5px;
+        line-height: 1.5;
+    }
+  }
 
 .heading{
     max-width: 100%;
@@ -13,12 +25,26 @@
     text-transform: uppercase;
     opacity: .5;
 }
+@media (max-width: 768px) {
+    .heading{
+        font-size: 10px !important;
+    }
+  }
 
-.content{
-
-}
 
 .contentParagr{
     font-family: 'Playfair Display';
     font-size: 24px !important;
 }
+@media (max-width: 991px) {
+    .contentParagr{
+        font-family: 'Playfair Display';
+        font-size: 20px !important;
+    }
+  }
+  @media (max-width: 768px) {
+    .contentParagr{
+        font-family: 'Playfair Display';
+        font-size: 16px !important;
+    }
+  }

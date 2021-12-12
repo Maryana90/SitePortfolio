@@ -3,12 +3,21 @@
     margin: -7px 20px 0;
     width: 50%;
     vertical-align: top;
-
 }
+@media (max-width: 768px) {
+    .content{
+        width: 70%;
+    }
+  }
 
 .textContent{
     text-align: left;
 }
+@media (max-width: 768px) {
+    .textContent{
+        margin-top: 20px;
+    }
+  }
 
 .text{
     font-family: 'Raleway', sans-serif;
@@ -17,3 +26,19 @@
     line-height: 1.7;
     margin: 0;
 }
+@media (max-width: 768px) {
+    .text{
+        font-size: 14px;
+    }
+  }
+@media (max-width: 768px) {
+    .text{
+        text-align: center;
+    }
+  }
+@media (max-width: 600px) {
+    .text{
+        font-size: 12px;
+        text-align: center;
+    }
+  }

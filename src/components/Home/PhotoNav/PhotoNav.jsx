@@ -1,15 +1,15 @@
 import React from "react";
-import q from "./PhotoNav.module.css";
-import img1 from "./../../Portfolio/Portrait/assets/f1.jpg";
-import img2 from "./../../Portfolio/Outdoor/assets/f1.jpg";
-import img3 from "./../../Portfolio/Studio/assets/f1.jpg";
-import img4 from "./../../Portfolio/LoveStory/assets/f1.JPG";
-import img5 from "./../../Portfolio/Business/assets/f1.jpg";
-import img6 from "./../../Portfolio/Photohistory/assets/f1.jpg";
-import img7 from "./../../Portfolio/Family/assets/f1.jpg";
-import img8 from "./../../Portfolio/Landscape/assets/f1.jpg";
-import img9 from "./../../Portfolio/Architecture/assets/f1.jpg";
 import { NavLink } from "react-router-dom";
+import q from "./PhotoNav.module.css";
+import img1 from "./assets/f1.jpg";
+import img2 from "./assets/f2.jpg";
+import img3 from "./assets/f3.jpg";
+import img4 from "./assets/f4.JPG";
+import img5 from "./assets/f5.jpg";
+import img6 from "./assets/f6.jpg";
+import img7 from "./assets/f7.jpg";
+import img8 from "./assets/f8.jpg";
+import img9 from "./assets/f9.jpg";
 
 const PhotoNav = () => {
   return (

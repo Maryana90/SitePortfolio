@@ -1,6 +1,19 @@
 .formBox {
   margin: auto 20%;
-  width: 60%;
+  width: 40%;
+}
+@media (max-width: 1024px){
+  .formBox {
+    margin: auto 15%;
+    width: 70%;
+  }
+}
+@media (max-width: 768px){
+  .formBox {
+    margin: 0;
+    width: 86%;
+    padding: 10px 7%;
+  }
 }
 
 .formField {
@@ -40,6 +53,11 @@ input {
 
 .submit{
   border: 1px solid silver;
+}
+@media (max-width: 768px){
+  .submit input{
+    font-size: smaller;
+  }
 }
 
 .submit:hover{

@@ -2,10 +2,31 @@
   margin: 30px 18%;
   width: 64%;
 }
+@media (max-width: 1024px){
+  .textBlock {
+    margin: 10px 7%;
+    width: 86%;
+  }
+}
 
 .text {
   font-family: "Raleway", sans-serif;
   font-size: larger;
   letter-spacing: 0.1em;
   line-height: 2.5;
+}
+@media (max-width: 1024px){
+  .text{
+    font-size: medium;
+  }
+}
+@media (max-width: 768px){
+  .text{
+    font-size: small;
+  }
+}
+@media (max-width: 480px){
+  .text{
+    font-size: smaller;
+  }
 }
