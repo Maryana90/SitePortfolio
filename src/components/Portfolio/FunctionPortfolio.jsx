@@ -86,4 +86,3 @@ const FunctionPortfolio = (props) => {
 };
 
 export default FunctionPortfolio;
-

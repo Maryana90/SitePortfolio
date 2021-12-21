@@ -5,7 +5,7 @@ import { BrowserRouter } from 'react-router-dom';
 const HeaderInner = () => {
     return (
         <BrowserRouter>
-            <header className={q.header}>
+            <header className={q.headerInner}>
                 <div></div>
                 <div className={q.name}>Lilia Minenko Photography</div>
                 <div className={q.lang}>

@@ -5,14 +5,10 @@ import HeaderInner from './HeaderInner/HeaderInner';
 
 const Header = () => {
     return (
-        <div className={q.head}>
-            <div className={q.innerHead}>
+        <div className={q.header}>
             <HeaderInner />
             <Nav />
-            </div>
         </div>
-
-
     )
 }
 
