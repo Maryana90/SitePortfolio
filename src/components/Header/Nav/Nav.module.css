@@ -1,5 +1,4 @@
 .navBar {
-    margin-top: 10px;
     font-size: 10px;
     line-height: 16px;
     letter-spacing: 0.35em;
@@ -8,8 +7,31 @@
     text-transform: uppercase;
 }
 
+@media(max-width: 768px) {
+    .navBar {
+        display: inline-block;
+    }
+}
+
 .mobileNavigation {
     display: none;
+}
+
+@media(max-width: 768px) {
+    .mobileNavigation {
+        display: flex;
+        position: absolute;
+        left: 0;
+        right: -15px;
+        margin-top: -20px;
+        line-height: 4;
+    }
+}
+
+@media(max-width: 480px) {
+    .mobileNavigation {
+        margin-top: -25px;
+    }
 }
 
 .list {
@@ -18,11 +40,42 @@
     margin: 0;
 }
 
+@media(max-width: 768px) {
+    .list {
+        width: 100%;
+        margin-top: 40px;
+    }
+}
+
 .item,
 .itemDot {
     display: inline-block;
     margin-left: 35px;
     margin-right: 35px;
+}
+
+@media(max-width: 991px) {
+    .item,
+    .itemDot {
+        display: inline-block;
+        margin-left: 20px;
+        margin-right: 20px;
+    }
+}
+
+@media(max-width: 768px) {
+    .item {
+        display: block;
+        width: 100%;
+        padding: 10px;
+        margin: auto;
+        background-color: white;
+        left: 0;
+        right: 0;
+    }
+    .itemDot {
+        display: none;
+    }
 }
 
 .item a {
@@ -53,6 +106,22 @@
     cursor: pointer;
 }
 
+.button:hover {
+    color: rgba(199, 199, 199, 1);
+    cursor: pointer;
+    transition: 0.2s;
+}
+
+@media(max-width: 768px) {
+    .button {
+        padding: 0;
+        margin-top: 0;
+    }
+    .button:hover .navItem {
+        text-align: center;
+    }
+}
+
 .portfoloiItems {
     display: none;
     position: absolute;
@@ -81,12 +150,6 @@
     text-align: left;
 }
 
-.button:hover {
-    color: rgba(199, 199, 199, 1);
-    cursor: pointer;
-    transition: 0.2s;
-}
-
 .portfoloiItems a {
     color: rgba(70, 69, 83, 1);
     background: rgba(255, 255, 255, 1);
@@ -101,54 +164,38 @@
     transition: 0.2s;
 }
 
-.navPortfolio:hover .portfoloiItems {
+.button:hover .portfoloiItems {
     display: block;
 }
 
-@media(max-width: 991px) {
-    .item,
-    .itemDot {
-        display: inline-block;
-        margin-left: 20px;
-        margin-right: 20px;
+@media(max-width: 768px) {
+    .button:hover .portfoloiItems {
+        width: 100%;
+        background-color: white;
+        margin-top: -100px;
+        left: 20px;
+        right: -20px;
+        line-height: 2;
+        padding-left: 40%;
     }
 }
 
 @media(max-width: 768px) {
-    .navBar {
-        display: inline-block;
-    }
     .navigation {
         display: none;
-    }
-    .mobileNavigation {
-        display: flex;
-        position: absolute;
-        left: 10%;
-        width: 80%;
-        margin-top: -20px;
     }
     .hamburger {
         position: absolute;
         right: 5%;
         cursor: pointer;
     }
-    .list {
-        width: 100%;
-        margin-top: 40px;
-    }
-    .item {
-        display: block;
-        width: 100%;
-        padding: 10px;
-        margin: 1px auto;
-        background-color: white;
-    }
-    .itemDot {
-        display: none;
-    }
-    .button {
-        padding: 0;
-        margin-top: 0;
+}
+
+@media(max-width: 480px) {
+    .hamburger {
+        width: 25px;
+        height: 25px;
+        right: 6%;
+        top: 3%;
     }
 }

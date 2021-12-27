@@ -10,17 +10,16 @@ const Footer = () => {
       <div className={q.innerFooter}>
         <p className={q.footerItem + " " + q.contactsData}>
           <p className={q.contacts}>
-            E-mail: <span className={q.contact}>lilia.minenko@gmail.com</span>
+            Email: <span className={q.contact}>lilia.minenko@gmail.com</span>
           </p>
           <p className={q.contacts}>
-            Телефон: <span className={q.contact}>(066)218-69-48</span>
+            Phone: <span className={q.contact}>(066)218-69-48</span>
           </p>
         </p>
         <p className={q.footerItem + " " + q.copyRight}>
-          © Фотограф Lilia Minenko. Открыта к сотрудничеству и предложениям.
+          © Photography Lilia Minenko
         </p>
         <p className={q.footerItem + " " + q.links}>
-          <p className={q.join}>Присоединяйтесь:</p>
           <p className={q.link}>
             <a
               className={q.icon}
