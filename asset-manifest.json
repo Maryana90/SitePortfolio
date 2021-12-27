@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/SitePortfolio/static/css/main.4e09edf5.chunk.css",
+    "main.css": "/SitePortfolio/static/css/main.c7e8cfa3.chunk.css",
     "main.js": "/SitePortfolio/static/js/main.4fc9c0f4.chunk.js",
     "main.js.map": "/SitePortfolio/static/js/main.4fc9c0f4.chunk.js.map",
     "runtime-main.js": "/SitePortfolio/static/js/runtime-main.6f52e8aa.js",
@@ -10,7 +10,7 @@
     "static/js/3.68456b0c.chunk.js": "/SitePortfolio/static/js/3.68456b0c.chunk.js",
     "static/js/3.68456b0c.chunk.js.map": "/SitePortfolio/static/js/3.68456b0c.chunk.js.map",
     "index.html": "/SitePortfolio/index.html",
-    "static/css/main.4e09edf5.chunk.css.map": "/SitePortfolio/static/css/main.4e09edf5.chunk.css.map",
+    "static/css/main.c7e8cfa3.chunk.css.map": "/SitePortfolio/static/css/main.c7e8cfa3.chunk.css.map",
     "static/js/2.e8418f1d.chunk.js.LICENSE.txt": "/SitePortfolio/static/js/2.e8418f1d.chunk.js.LICENSE.txt",
     "static/media/Slide1.2cc275cd.JPG": "/SitePortfolio/static/media/Slide1.2cc275cd.JPG",
     "static/media/chevron-left.c80cdd8e.svg": "/SitePortfolio/static/media/chevron-left.c80cdd8e.svg",
@@ -111,7 +111,7 @@
   "entrypoints": [
     "static/js/runtime-main.6f52e8aa.js",
     "static/js/2.e8418f1d.chunk.js",
-    "static/css/main.4e09edf5.chunk.css",
+    "static/css/main.c7e8cfa3.chunk.css",
     "static/js/main.4fc9c0f4.chunk.js"
   ]
 }
