@@ -1,69 +1,96 @@
+.observe {
+    animation: contact-animation 2s;
+}
+
+@keyframes contact-animation {
+    0% {
+        margin-top: 70px;
+    }
+    100% {
+        margin-top: 30px;
+    }
+}
+
 .formBox {
-  margin: auto 20%;
-  width: 40%;
+    margin: 30px 20%;
+    width: 40%;
 }
-@media (max-width: 1024px){
-  .formBox {
-    margin: auto 15%;
-    width: 70%;
-  }
+
+@media (max-width: 1024px) {
+    .formBox {
+        margin: auto 15%;
+        width: 45%;
+    }
 }
-@media (max-width: 768px){
-  .formBox {
-    margin: 0;
-    width: 86%;
-    padding: 10px 7%;
-  }
+
+@media (max-width: 768px) {
+    .formBox {
+        padding: 10px 12%;
+    }
 }
 
 .formField {
-  width: 100%;
-  margin: 20px auto;
-  border-bottom: 1px solid silver;
+    width: 100%;
+    margin: 20px auto;
+    border-bottom: 1px solid silver;
 }
 
 input {
-  width: 100%;
-  height: 30px;
-  outline: none;
-  border: none;
-  background-color: #f5f5f5;
+    width: 100%;
+    height: 30px;
+    outline: none;
+    border: none;
+    background-color: #f5f5f5;
 }
 
 .message textarea {
-  width: 100%;
-  height: 100px;
-  resize: none;
-  margin: 20px auto 0;
-  border: none;
-  background-color: #f5f5f5;
+    width: 100%;
+    height: 100px;
+    resize: none;
+    margin: 20px auto 0;
+    border: none;
+    background-color: #f5f5f5;
 }
 
-.message textarea:active{
-  border: none;
-  background-color: #f5f5f5;
+.message textarea:active {
+    border: none;
+    background-color: #f5f5f5;
 }
 
 .labels {
-  font-family: "Raleway Light";
-  font-size: 10px;
-  font-weight: normal;
-  letter-spacing: 0.15em;
+    font-family: "Raleway Light";
+    font-size: 10px;
+    font-weight: normal;
+    letter-spacing: 0.15em;
 }
 
-.submit{
-  border: 1px solid silver;
-}
-@media (max-width: 768px){
-  .submit input{
-    font-size: smaller;
-  }
+.submit {
+    border: 1px solid silver;
+    width: 100px;
+    height: 30px;
 }
 
-.submit:hover{
-  border: 1px solid #f5f5f5;
+@media (max-width: 768px) {
+    .submit {
+        width: 90px;
+        height: 30px;
+    }
 }
 
-.submit input:hover{
-  background-color: #ebe9e9;
+.submit input {
+    font-size: 12px;
+}
+
+@media (max-width: 768px) {
+    .submit input {
+        font-size: 11px;
+    }
+}
+
+.submit:hover {
+    border: 1px solid silver;
+}
+
+.submit input:hover {
+    background-color: #ebe9e9;
 }

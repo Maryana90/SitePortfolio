@@ -19,30 +19,29 @@ import { BrowserRouter, Route } from 'react-router-dom';
 
 
 function App() {
-  return (<BrowserRouter>
-    <div className="app-wrapper">
-      <Header />
-      <div className='app-wrapper-content'>
-        <Route exact path='/' component={Home} />
-        <Route exact path='/SitePortfolio/' component={Home} />
-        <Route path='/architecture' component={Architecture} />
-        <Route path='/business' component={Business} />
-        <Route path='/family' component={Family} />
-        <Route path='/landscape' component={Landscape} />
-        <Route path='/outdoor' component={Outdoor} />
-        <Route path='/photohistory' component={Photohistory} />
-        <Route path='/portrait' component={Portrait} />
-        <Route path='/studio' component={Studio} />
-        <Route path='/lovestory' component={LoveStory} />
-        <Route path='/about' component={About} />
-        <Route path='/contacts' component={Contacts} />
-        <Route path='/more' component={More} />
-      </div>
-      <Footer />
-    </div>
-
-  </BrowserRouter>
-  );
+    return (< BrowserRouter >
+        <div className="app-wrapper" >
+            <Header />
+            <div className='app-wrapper-content' >
+                <Route exact path='/' component={Home} /> 
+                <Route exact path='/SitePortfolio/' component={Home} /> 
+                <Route path='/architecture' component={Architecture} /> 
+                <Route path='/business' component={Business} /> 
+                <Route path='/family' component={Family} /> 
+                <Route path='/landscape' component={Landscape} /> 
+                <Route path='/outdoor' component={Outdoor} /> 
+                <Route path='/photohistory' component={Photohistory} /> 
+                <Route path='/portrait' component={Portrait} /> 
+                <Route path='/studio' component={Studio} /> 
+                <Route path='/lovestory'component={LoveStory} /> 
+                <Route path='/about' component={About}/> 
+                <Route path='/contacts' component={Contacts}/> 
+                <Route path='/more' component={More}/> 
+                </div> 
+            <Footer />
+        </div>
+    </BrowserRouter>
+    );
 }
 
 export default App;

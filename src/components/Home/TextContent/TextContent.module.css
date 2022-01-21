@@ -4,6 +4,10 @@
     text-align: center;
 }
 
+.textContent::content {
+    animation: content-animation 2s;
+}
+
 @media (max-width: 991px) {
     .textContent {
         margin: 40px 15% 10px;
@@ -15,6 +19,15 @@
     .textContent {
         margin: 20px 10% 5px;
         line-height: 1.5;
+    }
+}
+
+@keyframes content-animation {
+    0% {
+        margin-top: 120px;
+    }
+    100% {
+        margin-top: 70px;
     }
 }
 

@@ -1,9 +1,8 @@
-.photoSlide{
-    margin-top: 20px;
+.photoSlide {
+    margin-top: 70px;
     overflow: hidden;
 }
 
-.photoSlide img{
+.photoSlide img {
     width: 100%;
 }
-

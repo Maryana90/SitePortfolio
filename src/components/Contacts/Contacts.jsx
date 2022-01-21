@@ -2,6 +2,8 @@ import React from "react";
 import q from "./Contacts.module.css";
 import Image from "./Image/Image";
 import ContactForm from "./ContactForm/ContactForm";
+import qa from './ContactsAnimation.module.css';
+import ContactsAnimation from './ContactsAnimation';
 
 const Contacts = () => {
   return (
