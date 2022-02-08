@@ -1,0 +1,203 @@
+.navBar {
+    font-size: 10px;
+    line-height: 16px;
+    letter-spacing: 0.35em;
+    font-family: Didact Gothic;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+@media(max-width: 768px) {
+    .navBar {
+        display: inline-block;
+    }
+}
+
+.mobileNavigation {
+    display: none;
+}
+
+@media(max-width: 768px) {
+    .mobileNavigation {
+        display: flex;
+        position: absolute;
+        left: 0;
+        right: -15px;
+        margin-top: -20px;
+        line-height: 4;
+    }
+}
+
+@media(max-width: 480px) {
+    .mobileNavigation {
+        margin-top: -25px;
+    }
+}
+
+.list {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+@media(max-width: 768px) {
+    .list {
+        width: 100%;
+        margin-top: 40px;
+    }
+}
+
+.item,
+.itemDot {
+    display: inline-block;
+    margin-left: 35px;
+    margin-right: 35px;
+}
+
+@media(max-width: 991px) {
+    .item,
+    .itemDot {
+        display: inline-block;
+        margin-left: 20px;
+        margin-right: 20px;
+    }
+}
+
+@media(max-width: 768px) {
+    .item {
+        display: block;
+        width: 100%;
+        padding: 10px;
+        margin: auto;
+        background-color: white;
+        left: 0;
+        right: 0;
+    }
+    .itemDot {
+        display: none;
+    }
+}
+
+.item a {
+    text-decoration: none;
+    color: #333;
+}
+
+.item a.activeLink {
+    color: rgba(199, 199, 199, 1);
+    transition: 0.2s;
+}
+
+.item a:hover {
+    color: rgba(199, 199, 199, 1);
+    transition: 0.2s;
+}
+
+.button {
+    margin-top: 20px;
+    font-size: 10px;
+    line-height: 16px;
+    letter-spacing: 0.35em;
+    font-family: Didact Gothic;
+    text-align: center;
+    text-transform: uppercase;
+    border: none;
+    background-color: white;
+    cursor: pointer;
+}
+
+.button:hover {
+    color: rgba(199, 199, 199, 1);
+    cursor: pointer;
+    transition: 0.2s;
+}
+
+@media(max-width: 768px) {
+    .button {
+        padding: 0;
+        margin-top: 0;
+    }
+    .button:hover .navItem {
+        text-align: center;
+    }
+}
+
+.portfoloiItems {
+    display: none;
+    position: absolute;
+    line-height: 1.25em;
+    padding-top: 12px;
+    margin-left: -15px;
+    text-transform: none;
+}
+
+.navList {
+    display: block;
+    top: 100%;
+    position: relative;
+    scrollbar-color: #7f7f7f transparent;
+    scrollbar-width: thin;
+    padding: 0;
+    margin: 0;
+    list-style-type: none;
+}
+
+.navItem {
+    width: 142px;
+    display: block;
+    height: auto;
+    margin-bottom: 1px;
+    text-align: left;
+}
+
+.portfoloiItems a {
+    color: rgba(70, 69, 83, 1);
+    background: rgba(255, 255, 255, 1);
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+
+.portfoloiItems a:hover {
+    color: rgba(199, 199, 199, 1);
+    cursor: pointer;
+    transition: 0.2s;
+}
+
+.button:hover .portfoloiItems {
+    display: block;
+}
+
+@media(max-width: 768px) {
+    .button:hover .portfoloiItems {
+        width: 100%;
+        background-color: white;
+        margin-top: -100px;
+        left: 20px;
+        right: -20px;
+        line-height: 2;
+    }
+}
+
+@media(max-width: 768px) {
+    .button:hover .portfoloiItems {
+        padding-left: 30%;
+    }
+}
+
+@media(max-width: 768px) {
+    .navigation {
+        display: none;
+    }
+    .hamburger {
+        position: absolute;
+        right: 5%;
+        cursor: pointer;
+    }
+}
+
+@media(max-width: 480px) {
+    .hamburger {
+        top: 1%;
+    }
+}

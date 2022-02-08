@@ -1,0 +1,108 @@
+.about{
+    margin-top: 50px;
+    padding: 50px;
+}
+
+.aboutContent{
+    display: inline-block;
+    position: relative;
+    padding: 60px;
+}
+@media (max-width: 991px) {
+    .aboutContent {
+        display: block;
+        padding: 50px 30px;
+    }
+  }
+  @media (max-width: 768px) {
+    .aboutContent {
+        padding: 30px 20px;
+    }
+  }
+  @media (max-width: 600px) {
+    .aboutContent {
+        padding: 30px 0;
+    }
+  }
+  @media (max-width: 480px) {
+    .aboutContent {
+        padding: 20px 0;
+    }
+  }
+
+.textContent{
+    display: inline-block;
+    font-size: 16px;
+    text-align: justify;
+    font-family: Didact Gothic;
+    color: rgba(70,69,83,1);
+    letter-spacing: 1px;
+    width: 50%;
+    margin: -27px 20px auto;
+    line-height: 2.2;
+    height: 100%;
+    vertical-align: top;
+}
+@media (max-width: 991px) {
+    .textContent {
+        display: block;
+        width: 80%;
+        margin: 30px 10% auto;
+    }
+  }
+  @media (max-width: 768px) {
+    .textContent {
+        font-size: 14px;
+        width: 90%;
+        margin: 20px 5% auto;
+    }
+  }
+  @media (max-width: 600px) {
+    .textContent {
+        font-size: 14px;
+        width: 100%;
+        margin: 15px 0 auto;
+    }
+  }
+  @media (max-width: 480px) {
+    .textContent {
+        font-size: 12px;
+    }
+  }
+
+.photoContent{
+    display: inline-block;
+    width: 40%;
+    margin: auto 20px;
+    height: 100%;
+    vertical-align: top;
+}
+@media (max-width: 991px) {
+    .photoContent {
+        display: block;
+        width: 50%;
+        margin: auto 25% 30px;
+    }
+  }
+  @media (max-width: 768px) {
+    .photoContent {
+        width: 80%;
+        margin: auto 10% 25px;
+    }
+  }
+  @media (max-width: 600px) {
+    .photoContent {
+        width: 90%;
+        margin: auto 5% 25px;
+    }
+  }
+  @media (max-width: 480px) {
+    .photoContent {
+        width: 100%;
+        margin: auto 0 25px;
+    }
+  }
+
+.photo{
+    max-width: 100%;
+}

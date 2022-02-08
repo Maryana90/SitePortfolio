@@ -1,0 +1,21 @@
+.mainBlock {
+    margin-top: 70px;
+    padding-top: 80px;
+}
+
+.textBlock {
+    padding: 5px 50px;
+    text-align: center;
+    font: 48px bold;
+    -webkit-animation: pulsate 2s linear infinite;
+    animation: pulsate 2s linear infinite;
+    text-shadow: 0 -1px rgba(0, 0, 0, .1);
+    text-decoration: none;
+}
+
+@keyframes pulsate {
+    50% {
+        color: rgba(243, 232, 232, 0.87);
+        text-shadow: 0 -1px #c9d3cb1a, 0 0 5px #c9d3cb50, 0 0 8px #c9d3cb21;
+    }
+}

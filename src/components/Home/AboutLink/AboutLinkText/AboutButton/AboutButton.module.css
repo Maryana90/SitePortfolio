@@ -1,0 +1,45 @@
+.button{
+    border: 1px solid #000;
+    background-color: rgba(0,0,0,0);
+    border-radius: 30px;
+    margin: 40px auto;
+    width: 140px;
+    height: 50px;
+    text-align: center;
+}
+@media (max-width: 768px) {
+    .button{
+        margin: 20px auto;
+        width: 120px;
+        height: 45px;
+    }
+  }
+@media (max-width: 600px) {
+    .button{
+        margin: 20px auto;
+        width: 90px;
+        height: 35px;
+    }
+  }
+
+.button a{    color: rgba(70, 69, 83, 1);
+    font-family: 'Raleway', sans-serif;
+    font-size: 13px;
+    letter-spacing: 0.05em;
+    font-weight: 700;
+    text-decoration: none;
+}
+@media (max-width: 600px) {
+    .button a{
+        font-size: 12px;
+    }
+  }
+  @media (max-width: 600px) {
+    .button a{
+        font-size: 10px;
+    }
+  }
+.button a:hover{
+    color: #aaaaaa;
+    text-decoration: none;
+}
