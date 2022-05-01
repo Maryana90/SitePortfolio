@@ -10,6 +10,7 @@ import img6 from "./assets/f6.jpg";
 import img7 from "./assets/f7.jpg";
 import img8 from "./assets/f8.jpg";
 import img9 from "./assets/f9.jpg";
+import img10 from "./assets/f10.jpg";
 
 const Architecture = () => {
   let data = [
@@ -48,6 +49,10 @@ const Architecture = () => {
     {
       id: 9,
       imgSrc: img9,
+    },
+    {
+      id: 10,
+      imgSrc: img10,
     },
   ];
 
